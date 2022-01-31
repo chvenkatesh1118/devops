@@ -1,2 +1,2 @@
 !#/bin/bash
-touch chanti
+echo chanti
