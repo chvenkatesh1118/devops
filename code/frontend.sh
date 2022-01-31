@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
  sudo yum install nginx -y
   systemctl enable nginx
