@@ -7,7 +7,7 @@ resource "aws_instance" "frontend" {
   instance_type = "t2.micro"
     subnet_id   = "subnet-0f42b250c3cf1d75c"
     vpc_id      = "vpc-0bf57a4f41c708816"
-    vpc_security_group_id = "sg-03439c9546a230549"
+    vpc_security_group_ids = "sg-03439c9546a230549"
 
   tags = {
     Name = "frontend"
