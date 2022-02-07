@@ -2,7 +2,7 @@
 resource "aws_security_group" "myall" {
   name        = "myall"
   description = "Allow all"
-  vpc_id      = [aws_vpc.vpc0.id]
+     vpc_id   = aws_vpc.vpc0.id
 
   ingress {
     description      = "TLS from VPC"
